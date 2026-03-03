@@ -18,8 +18,8 @@ CREATE TABLE ProductDescription (
 -- Table for storing logs (we accept data but do not save it)
 CREATE TABLE Logs (
     ID INT PRIMARY KEY,
-    Time DATETIME,
-    LogRecord TEXT
+    Timestamp DATETIME,
+    Message TEXT
 ) ENGINE=BLACKHOLE;
 
 -- Table for reporting system (CSV-based import/export)
